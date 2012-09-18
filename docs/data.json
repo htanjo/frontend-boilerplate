@@ -1,0 +1,335 @@
+{
+    "project": {
+        "name": "Project Name",
+        "description": "Project description here.",
+        "version": "0.0.0",
+        "url": "http://project.url/",
+        "options": {
+            "paths": "src/js/app",
+            "outdir": "docs"
+        }
+    },
+    "files": {
+        "src/js/app/collections/collection.js": {
+            "name": "src/js/app/collections/collection.js",
+            "modules": {
+                "collection": 1
+            },
+            "classes": {
+                "Collection": 1
+            },
+            "fors": {},
+            "namespaces": {}
+        },
+        "src/js/app/models/model.js": {
+            "name": "src/js/app/models/model.js",
+            "modules": {
+                "model": 1
+            },
+            "classes": {
+                "Model": 1
+            },
+            "fors": {},
+            "namespaces": {}
+        },
+        "src/js/app/routers/router.js": {
+            "name": "src/js/app/routers/router.js",
+            "modules": {
+                "router": 1
+            },
+            "classes": {
+                "Router": 1
+            },
+            "fors": {},
+            "namespaces": {}
+        },
+        "src/js/app/views/view.js": {
+            "name": "src/js/app/views/view.js",
+            "modules": {
+                "view": 1
+            },
+            "classes": {
+                "View": 1
+            },
+            "fors": {},
+            "namespaces": {}
+        }
+    },
+    "modules": {
+        "collection": {
+            "name": "collection",
+            "submodules": {},
+            "classes": {
+                "Collection": 1
+            },
+            "fors": {},
+            "namespaces": {},
+            "tag": "module",
+            "file": "src/js/app/collections/collection.js",
+            "line": 18,
+            "description": "Module of application main collection.",
+            "author": "author.name"
+        },
+        "model": {
+            "name": "model",
+            "submodules": {},
+            "classes": {
+                "Model": 1
+            },
+            "fors": {},
+            "namespaces": {},
+            "tag": "module",
+            "file": "src/js/app/models/model.js",
+            "line": 17,
+            "description": "Module of Application main model.",
+            "author": "author.name"
+        },
+        "router": {
+            "name": "router",
+            "submodules": {},
+            "classes": {
+                "Router": 1
+            },
+            "fors": {},
+            "namespaces": {},
+            "tag": "module",
+            "file": "src/js/app/routers/router.js",
+            "line": 21,
+            "description": "Module of application main router.",
+            "author": "author.name"
+        },
+        "view": {
+            "name": "view",
+            "submodules": {},
+            "classes": {
+                "View": 1
+            },
+            "fors": {},
+            "namespaces": {},
+            "tag": "module",
+            "file": "src/js/app/views/view.js",
+            "line": 22,
+            "description": "Module of application main view.",
+            "author": "author.name"
+        }
+    },
+    "classes": {
+        "Collection": {
+            "name": "Collection",
+            "shortname": "Collection",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "module": "collection",
+            "namespace": "",
+            "file": "src/js/app/collections/collection.js",
+            "line": 18,
+            "description": "Class of application main collection.",
+            "is_constructor": 1,
+            "extends": "Backbone.Collection"
+        },
+        "Model": {
+            "name": "Model",
+            "shortname": "Model",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "module": "model",
+            "namespace": "",
+            "file": "src/js/app/models/model.js",
+            "line": 17,
+            "description": "Class of application main model.",
+            "is_constructor": 1,
+            "extends": "Backbone.Model"
+        },
+        "Router": {
+            "name": "Router",
+            "shortname": "Router",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "module": "router",
+            "namespace": "",
+            "file": "src/js/app/routers/router.js",
+            "line": 21,
+            "description": "Class of application main router.",
+            "is_constructor": 1,
+            "extends": "Backbone.Router"
+        },
+        "View": {
+            "name": "View",
+            "shortname": "View",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "module": "view",
+            "namespace": "",
+            "file": "src/js/app/views/view.js",
+            "line": 22,
+            "description": "Class of application main view.",
+            "is_constructor": 1,
+            "extends": "Backbone.View"
+        }
+    },
+    "classitems": [
+        {
+            "file": "src/js/app/collections/collection.js",
+            "line": 26,
+            "description": "Application model.",
+            "itemtype": "property",
+            "name": "model",
+            "type": "Model",
+            "class": "Collection",
+            "module": "collection"
+        },
+        {
+            "file": "src/js/app/collections/collection.js",
+            "line": 33,
+            "description": "Construct application main collection.",
+            "itemtype": "method",
+            "name": "initialize",
+            "class": "Collection",
+            "module": "collection"
+        },
+        {
+            "file": "src/js/app/models/model.js",
+            "line": 27,
+            "description": "Dummy attribute.",
+            "itemtype": "property",
+            "name": "dummyAttr",
+            "type": "String",
+            "class": "Model",
+            "module": "model"
+        },
+        {
+            "file": "src/js/app/models/model.js",
+            "line": 35,
+            "description": "Construct application main model.",
+            "itemtype": "method",
+            "name": "initialize",
+            "class": "Model",
+            "module": "model"
+        },
+        {
+            "file": "src/js/app/routers/router.js",
+            "line": 36,
+            "description": "Application main model.",
+            "itemtype": "property",
+            "name": "",
+            "type": "Model",
+            "class": "Router",
+            "module": "router"
+        },
+        {
+            "file": "src/js/app/routers/router.js",
+            "line": 43,
+            "description": "Application main collection.",
+            "itemtype": "property",
+            "name": "",
+            "type": "Collection",
+            "class": "Router",
+            "module": "router"
+        },
+        {
+            "file": "src/js/app/routers/router.js",
+            "line": 50,
+            "description": "Application main view.",
+            "itemtype": "property",
+            "name": "",
+            "type": "View",
+            "class": "Router",
+            "module": "router"
+        },
+        {
+            "file": "src/js/app/routers/router.js",
+            "line": 57,
+            "description": "Construct application main router.",
+            "itemtype": "method",
+            "name": "initialize",
+            "class": "Router",
+            "module": "router"
+        },
+        {
+            "file": "src/js/app/routers/router.js",
+            "line": 73,
+            "description": "Home page.",
+            "itemtype": "method",
+            "name": "home",
+            "class": "Router",
+            "module": "router"
+        },
+        {
+            "file": "src/js/app/routers/router.js",
+            "line": 81,
+            "description": "Example page.",
+            "itemtype": "method",
+            "name": "example",
+            "params": [
+                {
+                    "name": "id",
+                    "description": "",
+                    "type": "String"
+                }
+            ],
+            "class": "Router",
+            "module": "router"
+        },
+        {
+            "file": "src/js/app/views/view.js",
+            "line": 30,
+            "description": "Application model.",
+            "itemtype": "property",
+            "name": "model",
+            "type": "Model",
+            "class": "View",
+            "module": "view"
+        },
+        {
+            "file": "src/js/app/views/view.js",
+            "line": 37,
+            "description": "Construct application main view.",
+            "itemtype": "method",
+            "name": "initialize",
+            "class": "View",
+            "module": "view"
+        },
+        {
+            "file": "src/js/app/views/view.js",
+            "line": 52,
+            "description": "Compile HTML with template.",
+            "itemtype": "method",
+            "name": "template",
+            "params": [
+                {
+                    "name": "data",
+                    "description": "",
+                    "type": "Object"
+                }
+            ],
+            "return": {
+                "description": "",
+                "type": "String"
+            },
+            "class": "View",
+            "module": "view"
+        },
+        {
+            "file": "src/js/app/views/view.js",
+            "line": 60,
+            "description": "Render application view.",
+            "itemtype": "method",
+            "name": "render",
+            "chanable": "",
+            "class": "View",
+            "module": "view"
+        }
+    ]
+}

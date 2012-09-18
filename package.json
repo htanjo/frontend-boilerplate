@@ -1,0 +1,25 @@
+{
+    "name": "project-name",
+    "title": "Project Name",
+    "description": "Project description here.",
+    "version": "0.0.0",
+    "author": "Author, Name <name@mail.adress>",
+    "homepage": "http://project.url/",
+    "repository": {
+        "type": "git",
+        "url": "https://repository/project.git"
+    },
+    "dependencies": {},
+    "devDependencies": {
+        "grunt": "~0.3.15",
+        "grunt-contrib": ">=0.2.0",
+        "grunt-imagine": ">=0.2.0",
+        "grunt-html": ">=0.1.1",
+        "phantomjs": "*",
+        "pngout": "*"
+    },
+    "optionalDependencies": {},
+    "engines": {
+        "node": ">=0.6.0"
+    }
+}

@@ -1,0 +1,35 @@
+/**
+ * Global utility mixins.
+ * @author author.name
+ */
+
+// Clearfix
+.clearfix() {
+  &:before,
+  &:after {
+    display: table;
+    content: "";
+    // Fixes Opera/contenteditable bug:
+    // http://nicolasgallagher.com/micro-clearfix-hack/#comment-36952
+    line-height: 0;
+  }
+  &:after {
+    clear: both;
+  }
+}
+
+// Transitions
+.transition(@property, @duration, @delay:0) {
+  transition-property: @property;
+  transition-duration: @duration;
+  transition-delay: @delay;
+  -webkit-transition-property: @property;
+  -webkit-transition-duration: @duration;
+  -webkit-transition-delay: @delay;
+  -moz-transition-property: @property;
+  -moz-transition-duration: @duration;
+  -moz-transition-delay: @delay;
+  -o-transition-property: @property;
+  -o-transition-duration: @duration;
+  -o-transition-delay: @delay;
+}
