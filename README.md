@@ -23,8 +23,8 @@ Directory Structure
       ├── package.json  : Package info.
       └── README.md
 
-Requirements to Develop
------------------------
+Requirements to Build
+---------------------
 If you want to build this application, you have to install the follwing tools.
 
 * [Node.js](http://nodejs.org/) : Platform for development.
