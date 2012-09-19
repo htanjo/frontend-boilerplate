@@ -58,6 +58,6 @@ When build error occured in "pngmin" task in Windows, try to modify `helper.js` 
 2. Install "cheerio" module. `npm install cheerio` or `npm install -g cheerio`.
 3. Modify `helper.js` line 4. before:`jQuery  = require('jQuery');` -> after:`jQuery  = require('cheerio');`
 
-#### Reffer to:
+#### Refer to:
 * <https://github.com/asciidisco/grunt-imagine/issues/3>
 * <https://github.com/asciidisco/grunt-imagine/issues/6>
