@@ -1,13 +1,27 @@
 Frontend Boilerplate
 ====================
 
-Project Page
-------------
-<https://github.com/htanjo/frontend-boilerplate>
+Deliverables by this Boilerplate
+--------------------------------
+
+You can get the following deliverables by using this boilerplate. They are managed with [Grunt](http://gruntjs.com/).
+Currently, they all are almost blank pages.
+
+#### Distribution page
+<http://htanjo.github.com/frontend-boilerplate/dist/>
+
+#### Developer's page
+<http://htanjo.github.com/frontend-boilerplate/src/>
+
+#### QUnit Test Results
+<http://htanjo.github.com/frontend-boilerplate/test/>
+
+#### YUIDoc Reference
+<http://htanjo.github.com/frontend-boilerplate/docs/>
 
 Repository
 ----------
-You will get the development source code at our repository.
+You will get the development source code at my repository.
 
     git://github.com/htanjo/frontend-boilerplate.git
 
